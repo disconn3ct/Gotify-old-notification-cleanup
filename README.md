@@ -30,3 +30,6 @@ Or add to the cronjob:
 ```shell
 @daily /usr/local/bin/gotify-delete-old-notifications.sh #Cleanup Gotify notifications
 ```
+
+## Dependencies 
+This script needs: `curl`, `jq`, `awk`, `sed`.
